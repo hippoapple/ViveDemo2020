@@ -55,10 +55,5 @@ public class ViveController : MonoBehaviour
             Debug.Log($"Touch Pos x={pos.x}/y={pos.y}");
         }
 
-        if (trackPadClick.GetStateDown(any))
-        {
-            Debug.Log("TrackPad Clicked");
-        }
-
     }
 }
